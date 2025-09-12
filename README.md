@@ -18,27 +18,27 @@ ML models for predicting air quality and analyzing environmental pollution data.
 ----
 ## 🌈 Notebook Preview
 
-<p align="center"> <img width="1080" alt="Notebook-preview" src="https://github.com/user-attachments/assets/40c4a9e6-f68a-4b7f-8abc-07dcfb3d494e" /> <br> <i>Table of contents.</i> </p>
+<p align="center"> <img width="1080" alt="Notebook-preview" src="https://github.com/user-attachments/assets/dcc93f22-9475-4232-aa29-9bad80cb663c" /> <br> <i>Table of contents.</i> </p>
 
 ---
 
-<p align="center"> <img width="1080" alt="Predict next-hour PM2.5" src="https://github.com/user-attachments/assets/dd5e5731-067a-43f1-a7df-5967f690b346" /> <br> <i>Quick Inference (Next-Hour Forecast).</i> </p>
+<p align="center"> <img width="1080" alt="Predict next-hour PM2.5" src="https://github.com/user-attachments/assets/691018c3-1468-47f0-a939-f4de3d2abcca" /> <br> <i>Quick Inference (Next-Hour Forecast).</i> </p>
 
 ----
+
 ## 🔎 Outputs
 
-<p align="center"><img width="860" height="749" alt="AQI Category Confusion Matrix" src="https://github.com/user-attachments/assets/41be046a-5964-4980-80c6-c2fb0b861037" />
+<p align="center"><img width="860" height="749" alt="AQI Category Confusion Matrix" src="https://github.com/user-attachments/assets/6a79cfba-32c5-41f2-9ad2-4a2cf9deec2e" />
 
 ---
 
-<p align="center"><img width="540" height="547" alt="Scatter Plot (True vs Predicted)" src="https://github.com/user-attachments/assets/a7c1bae1-709c-4b8d-b46d-c5ecdc1258c5" />
+<p align="center"><img width="540" height="547" alt="Scatter Plot (True vs Predicted)" src="https://github.com/user-attachments/assets/612d75d4-17d7-41da-88f0-6214e483dd37" />
 
 ---
 
-<p align="center"><img width="1160" height="523" alt="Time Series Plot (True vs Predicted)" src="https://github.com/user-attachments/assets/a1ef5080-fb8a-484f-b1e7-451b94ddd2a0" />
-
+<p align="center"><img width="1160" height="523" alt="Time Series Plot (True vs Predicted)" src="https://github.com/user-attachments/assets/c5aabce6-5a4b-457f-a0d7-16fb1f9be5c4" />
+  
 ---
-
 
 ## ⚡ Quick Start
 

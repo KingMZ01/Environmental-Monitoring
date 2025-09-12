@@ -2,7 +2,7 @@
 
 ------------------------
 
-# Environmental-Monitoring
+# An Environmental Monitoring Project
 ML models for predicting air quality and analyzing environmental pollution data.
 
 ---

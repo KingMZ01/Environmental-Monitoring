@@ -18,7 +18,7 @@ ML models for predicting air quality and analyzing environmental pollution data.
 ----
 ## 🌈 Notebook Preview
 
-<p align="center"> <img width="1080" alt="Notebook-preview" src="https://github.com/user-attachments/assets/dcc93f22-9475-4232-aa29-9bad80cb663c" /> <br> <i>Table of contents.</i> </p>
+<p align="center"> <img width="1080" alt="Notebook-preview" src="https://github.com/user-attachments/assets/dcd1216c-a7c5-4fa5-beda-bc0399b662f9" /> <br> <i>Table of contents.</i> </p>
 
 ---
 

@@ -6,7 +6,8 @@
 ML models for predicting air quality and analyzing environmental pollution data.
 
 ---
-## 🚀 Features
+
+## 📘 Features
 - 📊 **Data Exploration:** Analyze and visualize air quality datasets, feature distributions, and correlations.
 - 🧹 **Preprocessing:** Handle missing values, normalize data, and prepare features for modeling.
 - 🤖 **Modeling:** Train Random Forest, XGBoost, and other baseline models.
@@ -15,8 +16,54 @@ ML models for predicting air quality and analyzing environmental pollution data.
 - 💾 **Model Saving/Loading:** Persist trained models for reuse.
 - 🧪 **Testing:** Ensure data integrity and model correctness with test cases.
 
-----
-## 🌈 Notebook Preview
+---
+## 🚀 Quick Start
+### 1. Clone the repository
+```
+git clone https://github.com/your-username/AQI-Prediction.git
+cd AQI-Prediction
+```
+### 2. Create and activate a virtual environment (recommended)
+#### Windows
+```
+python -m venv .venv
+.venv\Scripts\activate
+```
+#### Linux / macOS
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### 3. Install dependencies
+```
+pip install -r requirements.txt
+```
+### 4. Run the Streamlit app
+```
+streamlit run app.py
+```
+### 5. Open in browser
+
+Streamlit will start a local server, usually at:
+👉 http://localhost:8501
+
+---
+
+## 📷 Screenshots
+
+Below are key screens from the app. Images are stored in `screenshots/`.
+
+### Home
+![Home](Screenshots/1.png)
+![Home](Screenshots/3.png)
+![Home](Screenshots/4.png)
+
+### Model Performance
+![Model Performance](Screenshots/2.png)
+
+---
+
+### 🌈 Notebook Preview
 
 <p align="center"> <img width="1080" alt="Notebook-preview" src="https://github.com/user-attachments/assets/dcd1216c-a7c5-4fa5-beda-bc0399b662f9" /> <br> <i>Table of contents.</i> </p>
 
@@ -71,14 +118,34 @@ jupyter notebook Air_Quality_Prediction_Models.ipynb
 - Make predictions for new environmental data points.
 ---
 ## 🗂 Project Structure
+
 ```
-├── Air_Quality_Prediction_Models.ipynb    # Main notebook with EDA, modeling, and evaluation
-├── Data/                                  # Raw and processed datasets
-├── Models/                                # Saved trained models
-├── Plots/                                 # Visualization outputs
-├── Documents/                             # Reports, PDFs, and presentations
-├── Requirements.txt                       # Python dependencies
-└── README.md                              # Project documentation
+Environmental-Monitoring/
+├── data/                                   # Datasets (light/small only)
+│   ├── PRSA_data_2010.1.1-2014.12.31.csv   # Raw dataset (optional link in README)
+│   ├── aqi_test_input.csv                  # Sample input for testing
+│   └── feature_list.csv
+├── Documents/                              # Docs, reports & papers
+│   └── AQI_Model_Report.pdf
+│
+├── models/                                 # Trained models & configs
+│   ├── xgb_pm25_1h.joblib
+│   └── xgb_pm25_1h.json
+│
+├── plots/                                  # All generated plots of .ipynb
+│
+├──screenshots/                             # For GitHub README Preview of .ipynb & app.py                            
+│  └── Live_Demo.webm                       # Optional demo & media
+│
+├──Air_Quality_Prediction_Models.ipynb      # Jupyter notebooks
+│   └── Air_Quality_Prediction_Models.ipynb
+│
+│── README.md                               # Documentation
+│
+│── requirements.txt                        # Python dependencies
+│
+└── app.py                                  # Streamlit app (multi-page)
+
 
 ```
 ---
